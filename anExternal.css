@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+p.p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.p2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#LB {
+    width: 50px;
+    height: 50px;
+}
+
+#bs {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#bsContainer {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+#text {
+    Left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px 5px purple;
+    position: absolute;
+    text-align: center;
+    top: 50%; 
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white; 
+}
+
+#last{
+    float: right;
+    background: blue;
+    padding: 20px;
+    width: 200px;
+    height: 150;
+    border-radius: 25px; 
+}
+
+#lastImg{
+}
